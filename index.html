@@ -10,7 +10,7 @@
     <h1>this is h1</h1>
     <h2>this is h2</h2>
     <div class = 'login'>
-        <form action="" method="">
+        <form action="" method="POST">
             用户名：<input type = 'text'>
             密码：<input type="text">
             <button type ="submit">登录</button>
@@ -24,5 +24,10 @@
         <li>this is the new line 3</li>
     </ul>
     <!--添加搜索框时，发现method有问题，先在search分支下提交，然后回到master分支中修改<form>标签的method的值-->
+    <!--在master分支中修改method值后回到search中添加搜索框-->
+    <div>
+        <input type="submit" value="搜索" />
+    </div>
+    <!--此时search分支下修改method的值为post-->
 </body>
 </html>
